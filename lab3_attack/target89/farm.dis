@@ -1,0 +1,225 @@
+
+farm.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <start_farm>:
+   0:	f3 0f 1e fa          	endbr64
+   4:	b8 01 00 00 00       	mov    $0x1,%eax
+   9:	c3                   	ret
+
+000000000000000a <getval_298>:
+   a:	f3 0f 1e fa          	endbr64
+   e:	b8 58 91 90 90       	mov    $0x90909158,%eax
+  13:	c3                   	ret
+
+0000000000000014 <setval_181>:
+  14:	f3 0f 1e fa          	endbr64
+  18:	c7 07 58 90 90 c3    	movl   $0xc3909058,(%rdi)
+  1e:	c3                   	ret
+
+000000000000001f <addval_386>:
+  1f:	f3 0f 1e fa          	endbr64
+  23:	8d 87 48 89 c7 c3    	lea    -0x3c3876b8(%rdi),%eax
+  29:	c3                   	ret
+
+000000000000002a <setval_355>:
+  2a:	f3 0f 1e fa          	endbr64
+  2e:	c7 07 87 48 90 c3    	movl   $0xc3904887,(%rdi)
+  34:	c3                   	ret
+
+0000000000000035 <addval_208>:
+  35:	f3 0f 1e fa          	endbr64
+  39:	8d 87 48 89 c7 91    	lea    -0x6e3876b8(%rdi),%eax
+  3f:	c3                   	ret
+
+0000000000000040 <setval_398>:
+  40:	f3 0f 1e fa          	endbr64
+  44:	c7 07 a7 58 90 90    	movl   $0x909058a7,(%rdi)
+  4a:	c3                   	ret
+
+000000000000004b <setval_476>:
+  4b:	f3 0f 1e fa          	endbr64
+  4f:	c7 07 61 48 89 c7    	movl   $0xc7894861,(%rdi)
+  55:	c3                   	ret
+
+0000000000000056 <getval_256>:
+  56:	f3 0f 1e fa          	endbr64
+  5a:	b8 48 8b c7 c3       	mov    $0xc3c78b48,%eax
+  5f:	c3                   	ret
+
+0000000000000060 <mid_farm>:
+  60:	f3 0f 1e fa          	endbr64
+  64:	b8 01 00 00 00       	mov    $0x1,%eax
+  69:	c3                   	ret
+
+000000000000006a <add_xy>:
+  6a:	f3 0f 1e fa          	endbr64
+  6e:	48 8d 04 37          	lea    (%rdi,%rsi,1),%rax
+  72:	c3                   	ret
+
+0000000000000073 <setval_340>:
+  73:	f3 0f 1e fa          	endbr64
+  77:	c7 07 c9 ce c3 56    	movl   $0x56c3cec9,(%rdi)
+  7d:	c3                   	ret
+
+000000000000007e <getval_349>:
+  7e:	f3 0f 1e fa          	endbr64
+  82:	b8 89 ce 94 c0       	mov    $0xc094ce89,%eax
+  87:	c3                   	ret
+
+0000000000000088 <addval_114>:
+  88:	f3 0f 1e fa          	endbr64
+  8c:	8d 87 48 89 e0 91    	lea    -0x6e1f76b8(%rdi),%eax
+  92:	c3                   	ret
+
+0000000000000093 <addval_477>:
+  93:	f3 0f 1e fa          	endbr64
+  97:	8d 87 89 ce 60 d2    	lea    -0x2d9f3177(%rdi),%eax
+  9d:	c3                   	ret
+
+000000000000009e <setval_177>:
+  9e:	f3 0f 1e fa          	endbr64
+  a2:	c7 07 89 d1 38 c9    	movl   $0xc938d189,(%rdi)
+  a8:	c3                   	ret
+
+00000000000000a9 <addval_357>:
+  a9:	f3 0f 1e fa          	endbr64
+  ad:	8d 87 b8 81 c2 90    	lea    -0x6f3d7e48(%rdi),%eax
+  b3:	c3                   	ret
+
+00000000000000b4 <addval_104>:
+  b4:	f3 0f 1e fa          	endbr64
+  b8:	8d 87 a9 d1 90 c3    	lea    -0x3c6f2e57(%rdi),%eax
+  be:	c3                   	ret
+
+00000000000000bf <setval_485>:
+  bf:	f3 0f 1e fa          	endbr64
+  c3:	c7 07 48 89 e0 92    	movl   $0x92e08948,(%rdi)
+  c9:	c3                   	ret
+
+00000000000000ca <setval_146>:
+  ca:	f3 0f 1e fa          	endbr64
+  ce:	c7 07 48 88 e0 90    	movl   $0x90e08848,(%rdi)
+  d4:	c3                   	ret
+
+00000000000000d5 <addval_220>:
+  d5:	f3 0f 1e fa          	endbr64
+  d9:	8d 87 89 ce 18 c0    	lea    -0x3fe73177(%rdi),%eax
+  df:	c3                   	ret
+
+00000000000000e0 <addval_200>:
+  e0:	f3 0f 1e fa          	endbr64
+  e4:	8d 87 8d c2 20 c9    	lea    -0x36df3d73(%rdi),%eax
+  ea:	c3                   	ret
+
+00000000000000eb <setval_323>:
+  eb:	f3 0f 1e fa          	endbr64
+  ef:	c7 07 89 c2 08 c0    	movl   $0xc008c289,(%rdi)
+  f5:	c3                   	ret
+
+00000000000000f6 <getval_361>:
+  f6:	f3 0f 1e fa          	endbr64
+  fa:	b8 89 d1 c4 db       	mov    $0xdbc4d189,%eax
+  ff:	c3                   	ret
+
+0000000000000100 <getval_448>:
+ 100:	f3 0f 1e fa          	endbr64
+ 104:	b8 48 89 e0 94       	mov    $0x94e08948,%eax
+ 109:	c3                   	ret
+
+000000000000010a <setval_423>:
+ 10a:	f3 0f 1e fa          	endbr64
+ 10e:	c7 07 89 d1 38 c9    	movl   $0xc938d189,(%rdi)
+ 114:	c3                   	ret
+
+0000000000000115 <setval_318>:
+ 115:	f3 0f 1e fa          	endbr64
+ 119:	c7 07 81 c2 08 db    	movl   $0xdb08c281,(%rdi)
+ 11f:	c3                   	ret
+
+0000000000000120 <setval_314>:
+ 120:	f3 0f 1e fa          	endbr64
+ 124:	c7 07 48 89 e0 c7    	movl   $0xc7e08948,(%rdi)
+ 12a:	c3                   	ret
+
+000000000000012b <getval_132>:
+ 12b:	f3 0f 1e fa          	endbr64
+ 12f:	b8 89 d1 c2 7b       	mov    $0x7bc2d189,%eax
+ 134:	c3                   	ret
+
+0000000000000135 <addval_315>:
+ 135:	f3 0f 1e fa          	endbr64
+ 139:	8d 87 89 ce 84 c9    	lea    -0x367b3177(%rdi),%eax
+ 13f:	c3                   	ret
+
+0000000000000140 <getval_411>:
+ 140:	f3 0f 1e fa          	endbr64
+ 144:	b8 48 89 e0 90       	mov    $0x90e08948,%eax
+ 149:	c3                   	ret
+
+000000000000014a <setval_434>:
+ 14a:	f3 0f 1e fa          	endbr64
+ 14e:	c7 07 c9 ce 90 c3    	movl   $0xc390cec9,(%rdi)
+ 154:	c3                   	ret
+
+0000000000000155 <getval_118>:
+ 155:	f3 0f 1e fa          	endbr64
+ 159:	b8 81 c2 20 c9       	mov    $0xc920c281,%eax
+ 15e:	c3                   	ret
+
+000000000000015f <setval_165>:
+ 15f:	f3 0f 1e fa          	endbr64
+ 163:	c7 07 89 ce 08 c0    	movl   $0xc008ce89,(%rdi)
+ 169:	c3                   	ret
+
+000000000000016a <getval_201>:
+ 16a:	f3 0f 1e fa          	endbr64
+ 16e:	b8 81 d1 84 d2       	mov    $0xd284d181,%eax
+ 173:	c3                   	ret
+
+0000000000000174 <setval_244>:
+ 174:	f3 0f 1e fa          	endbr64
+ 178:	c7 07 89 c2 30 d2    	movl   $0xd230c289,(%rdi)
+ 17e:	c3                   	ret
+
+000000000000017f <getval_109>:
+ 17f:	f3 0f 1e fa          	endbr64
+ 183:	b8 48 89 e0 c3       	mov    $0xc3e08948,%eax
+ 188:	c3                   	ret
+
+0000000000000189 <addval_329>:
+ 189:	f3 0f 1e fa          	endbr64
+ 18d:	8d 87 89 c2 38 db    	lea    -0x24c73d77(%rdi),%eax
+ 193:	c3                   	ret
+
+0000000000000194 <getval_379>:
+ 194:	f3 0f 1e fa          	endbr64
+ 198:	b8 48 89 e0 c7       	mov    $0xc7e08948,%eax
+ 19d:	c3                   	ret
+
+000000000000019e <addval_154>:
+ 19e:	f3 0f 1e fa          	endbr64
+ 1a2:	8d 87 8d ce 08 c0    	lea    -0x3ff73173(%rdi),%eax
+ 1a8:	c3                   	ret
+
+00000000000001a9 <getval_189>:
+ 1a9:	f3 0f 1e fa          	endbr64
+ 1ad:	b8 81 d1 20 db       	mov    $0xdb20d181,%eax
+ 1b2:	c3                   	ret
+
+00000000000001b3 <addval_483>:
+ 1b3:	f3 0f 1e fa          	endbr64
+ 1b7:	8d 87 c9 d1 90 90    	lea    -0x6f6f2e37(%rdi),%eax
+ 1bd:	c3                   	ret
+
+00000000000001be <addval_301>:
+ 1be:	f3 0f 1e fa          	endbr64
+ 1c2:	8d 87 89 c2 28 c0    	lea    -0x3fd73d77(%rdi),%eax
+ 1c8:	c3                   	ret
+
+00000000000001c9 <end_farm>:
+ 1c9:	f3 0f 1e fa          	endbr64
+ 1cd:	b8 01 00 00 00       	mov    $0x1,%eax
+ 1d2:	c3                   	ret
